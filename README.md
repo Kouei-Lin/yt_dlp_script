@@ -20,9 +20,9 @@ Somem packages we'll need are
 `cd yt-dlp-script`
 
 ## Give permissions to the scripts
-`chmod +x yt_download.sh`
-`chmod +x mpv_offline_play.sh`
-`chmod +x mpv_online_play.sh`
+- `chmod +x yt_download.sh`
+- `chmod +x mpv_offline_play.sh`
+- `chmod +x mpv_online_play.sh`
 
 ## Edit the files
 The scripts pull targets from the `yt_url.txt` to see which youtube videos to download or stream.
