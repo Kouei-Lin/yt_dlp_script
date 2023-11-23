@@ -44,7 +44,7 @@ I am using `zsh`, if you are using `bash`:
 Then edit the first line from `#!/bin/zsh` to `#!/bin/bash`.
 
 ## Run the Script
-`./yt_download.sh` will download the videos to the local folder `offline_playlist` so you can play it offline.
+`./yt_download.sh` will create a `offline_playlist` folder and download the videos to the local folder `offline_playlist` so you can play it offline.
 
 `./mpv_offline_play.sh` will play the video from the `offline_playlist`.
 
