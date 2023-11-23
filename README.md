@@ -27,11 +27,12 @@ Somem packages we'll need are:
 
 `chmod +x mpv_online_play.sh`
 
-## Edit the files
+## Edit the target urls
 The scripts pull targets from the `yt_url.txt` to see which youtube videos to download or stream.
 
 `vim yt_url.txt` to edit in your prefered videos' urls.
 
+## Edit the shell
 I am using `zsh`, if you are using `bash`:
 
 `vim yt_download.sh`
@@ -40,7 +41,7 @@ I am using `zsh`, if you are using `bash`:
 
 `vim mpv_online_play.sh`
 
-and edit the first line from `#!/bin/zsh` to `#!/bin/bash`.
+Then edit the first line from `#!/bin/zsh` to `#!/bin/bash`.
 
 ## Run the Script
 `./yt_download.sh` will download the videos to the local folder `offline_playlist` so you can play it offline.
