@@ -1,4 +1,3 @@
-
 #!/bin/zsh
 
 # Set the path to your music folder
