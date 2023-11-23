@@ -2,7 +2,8 @@
 
 ## Packages Install
 Using arch, replace the package manager to suit in your need.
-Somem packages we'll need are
+
+Somem packages we'll need are:
 - [yt-dlp](https://wiki.archlinux.org/title/Yt-dlp)
 - [ffmpeg](https://wiki.archlinux.org/title/FFmpeg)
 - [mpv](https://wiki.archlinux.org/title/Mpv)
@@ -20,9 +21,11 @@ Somem packages we'll need are
 `cd yt-dlp-script`
 
 ## Give permissions to the scripts
-- `chmod +x yt_download.sh`
-- `chmod +x mpv_offline_play.sh`
-- `chmod +x mpv_online_play.sh`
+`chmod +x yt_download.sh`
+
+`chmod +x mpv_offline_play.sh`
+
+`chmod +x mpv_online_play.sh`
 
 ## Edit the files
 The scripts pull targets from the `yt_url.txt` to see which youtube videos to download or stream.
@@ -30,13 +33,18 @@ The scripts pull targets from the `yt_url.txt` to see which youtube videos to do
 `vim yt_url.txt` to edit in your prefered videos' urls.
 
 I am using `zsh`, if you are using `bash`:
-- `vim yt_download.sh`
-- `vim mpv_offline_play.sh`
-- `vim mpv_online_play.sh`
+
+`vim yt_download.sh`
+
+`vim mpv_offline_play.sh`
+
+`vim mpv_online_play.sh`
 
 and edit the first line from `#!/bin/zsh` to `#!/bin/bash`.
 
 ## Run the Script
-- `./yt_download.sh` will download the videos to the local folder `offline_playlist` so you can play it offline.
-- `./mpv_offline_play.sh` will play the video from the `offline_playlist`.
-- `./mpv_online_play.sh` will play the videos sourcing he url targets from `yt_url.txt` and play the videos without downloading it.
+`./yt_download.sh` will download the videos to the local folder `offline_playlist` so you can play it offline.
+
+`./mpv_offline_play.sh` will play the video from the `offline_playlist`.
+
+`./mpv_online_play.sh` will play the videos sourcing he url targets from `yt_url.txt` and play the videos without downloading it.
