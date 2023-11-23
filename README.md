@@ -1,4 +1,4 @@
-# Youtube Videos Download Script
+# Youtube Videos Download Scripts
 
 ## Packages Install
 Using arch, replace the package manager to suit in your need.
@@ -15,24 +15,24 @@ Somem packages we'll need are:
 
 `sudo pacman -S yt-dlp ffmpeg mpv vim git` to install the packages.
 
-## Clone the repo
+## Clone Repo
 `git clone https://github.com/Kouei-Lin/yt-dlp-script`
 
 `cd yt-dlp-script`
 
-## Give permissions to the scripts
+## Give Permissions
 `chmod +x yt_download.sh`
 
 `chmod +x mpv_offline_play.sh`
 
 `chmod +x mpv_online_play.sh`
 
-## Edit the target urls
+## Edit Urls
 The scripts pull targets from the `yt_url.txt` to see which youtube videos to download or stream.
 
 `vim yt_url.txt` to edit in your prefered videos' urls.
 
-## Edit the shell
+## Edit Shell
 I am using `zsh`, if you are using `bash`:
 
 `vim yt_download.sh`
