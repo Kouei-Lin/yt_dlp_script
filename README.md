@@ -1,8 +1,13 @@
 # Youtube Videos Download Script
 
 ## Packages Install
-I am using arch, replace the package manager to suit in your need.
-We'll need [yt-dlp](https://wiki.archlinux.org/title/Yt-dlp), [ffmpeg](https://wiki.archlinux.org/title/FFmpeg), [mpv](https://wiki.archlinux.org/title/Mpv), [vim](https://wiki.archlinux.org/title/Vim), and [git](https://wiki.archlinux.org/title/Git).
+Using arch, replace the package manager to suit in your need.
+Somem packages we'll need are
+- [yt-dlp](https://wiki.archlinux.org/title/Yt-dlp)
+- [ffmpeg](https://wiki.archlinux.org/title/FFmpeg)
+- [mpv](https://wiki.archlinux.org/title/Mpv)
+- [vim](https://wiki.archlinux.org/title/Vim)
+- [git](https://wiki.archlinux.org/title/Git).
 
 `sudo pacman -Syu` to update first.
 
