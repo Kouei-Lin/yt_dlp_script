@@ -48,4 +48,4 @@ Then edit the first line from `#!/bin/zsh` to `#!/bin/bash`.
 
 `./mpv_offline_play.sh` will play the video from the `offline_playlist`.
 
-`./mpv_online_play.sh` will play the videos sourcing he url targets from `yt_url.txt` and play the videos without downloading it.
+`./mpv_online_play.sh` will play the videos sourcing the url targets from `yt_url.txt` and play the videos without downloading it.
