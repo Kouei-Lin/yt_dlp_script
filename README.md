@@ -8,7 +8,7 @@ Somem packages we'll need are:
 - [ffmpeg](https://wiki.archlinux.org/title/FFmpeg)
 - [mpv](https://wiki.archlinux.org/title/Mpv)
 - [vim](https://wiki.archlinux.org/title/Vim)
-- [git](https://wiki.archlinux.org/title/Git).
+- [git](https://wiki.archlinux.org/title/Git)
 
 `sudo pacman -Syu` to update first.
 
